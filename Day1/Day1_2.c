@@ -25,7 +25,6 @@ int main() {
 	printf("Enter second number: ");
 	scanf("%d", &num2);
 	
-	// Sum 
 	sum = num1+num2;
 	diff = num1-num2;
 	product = num1*num2;
@@ -34,6 +33,7 @@ int main() {
 	
 	printf("Sum: %d, Diff: %d, Product: %d, ", sum, diff, product);
 	
+	# To handle division by zero!
 	if ( num2 != 0 )
 		{
 		int quotient = num1/num2;
